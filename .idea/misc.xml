@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/app/src/main/res/layout/acty_f.xml" value="0.19010416666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/app/src/main/res/layout/acty_f2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/app/src/main/res/layout/my_all_banner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/app/src/main/res/layout/my_all_native.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/drawable/ad_coich_fb_bg.xml" value="0.14" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/drawable/grdiy.xml" value="0.14" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/drawable/ic_cancel.xml" value="0.14" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/drawable/install_btn.xml" value="0.14" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/ads_nb_fb.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/custom_ad_interstitial_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/custom_ad_native_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/fb_native_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/google_small_native_banner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/internet_retry_dialog_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/my_all_banner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/my_all_native.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/native_admob_normal_round_btn.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/native_admob_round.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/native_admob_small_size.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/native_admob_square.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/native_banner_rlyt.xml" value="0.20416666666666666" />
+        <entry key="..\:/Module/No VNPro App/NoSimpleProApp/heniefont/src/main/res/layout/update_newapp_dialog_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
