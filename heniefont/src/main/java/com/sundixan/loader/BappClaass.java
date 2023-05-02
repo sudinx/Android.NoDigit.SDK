@@ -75,9 +75,22 @@ public class BappClaass {
     public static String app_UpdatePackageName = "";
 
     public static String app_DeveloperOption_Check_Mode = "";
+
     public static String extra_one = "";
     public static String extra_two = "";
     public static String extra_three = "";
+    public static String extra_four = "";
+    public static String extra_five = "";
+    public static String extra_six = "";
+    public static String extra_sevn = "";
+    public static String extra_eight = "";
+    public static String extra_nine = "";
+    public static String extra_ten = "";
+    public static String extra_elevn = "";
+    public static String extra_twel = "";
+    public static String extra_thrdteen = "";
+    public static String extra_fourteen = "";
+    public static String extra_fifteen = "";
 
     public static String Privacy_Policy = "";
     public static String app_onesingle_appid = "";
@@ -288,6 +301,18 @@ public class BappClaass {
         extra_one = jsonObject.getString("extra_one");
         extra_two = jsonObject.getString("extra_two");
         extra_three = jsonObject.getString("extra_three");
+        extra_four = jsonObject.getString("extra_four");
+        extra_five = jsonObject.getString("extra_five");
+        extra_six = jsonObject.getString("extra_six");
+        extra_sevn = jsonObject.getString("extra_sevn");
+        extra_eight = jsonObject.getString("extra_eight");
+        extra_nine = jsonObject.getString("extra_nine");
+        extra_ten = jsonObject.getString("extra_ten");
+        extra_elevn = jsonObject.getString("extra_elevn");
+        extra_twel = jsonObject.getString("extra_twel");
+        extra_thrdteen = jsonObject.getString("extra_thrdteen");
+        extra_fourteen = jsonObject.getString("extra_fourteen");
+        extra_fifteen = jsonObject.getString("extra_fifteen");
 
         Privacy_Policy = jsonObject.getString("Privacy_Policy");
         app_onesingle_appid = jsonObject.getString("app_OneSingleID");
@@ -427,7 +452,7 @@ public class BappClaass {
             return;
         }
 
-        if (FACEBOOK_AD_STATUS.equalsIgnoreCase("false") && AD_MOB_STATUS.equalsIgnoreCase("false")) {
+        if (FACEBOOK_AD_STATUS.equalsIgnoreCase("false") && AD_MOB_STATUS.equalsIgnoreCase("false") && app_OnlyBannerADShow.equalsIgnoreCase("false")) {
             if (UNITY_ADS_STATUS.equalsIgnoreCase("true")) {
                 unityBannerDisplay(banner_container);
             } else {
@@ -846,7 +871,6 @@ public class BappClaass {
                 showNativeFacebookBanner();
             }
         }
-
 
     }
 
@@ -2700,7 +2724,7 @@ public class BappClaass {
             return;
         }
 
-        if (FACEBOOK_AD_STATUS.equalsIgnoreCase("false") && AD_MOB_STATUS.equalsIgnoreCase("false")) {
+        if (FACEBOOK_AD_STATUS.equalsIgnoreCase("false") && AD_MOB_STATUS.equalsIgnoreCase("false") && app_OnlyInterstitalADShow.equalsIgnoreCase("false")) {
             if (UNITY_ADS_STATUS.equalsIgnoreCase("true")) {
                 loadUnityInterstital1(app_UnityInterstitialId1);
             }
