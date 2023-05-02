@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NoSimpleProApp.iml" filepath="$PROJECT_DIR$/.idea/modules/NoSimpleProApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NoSimpleProApp.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.main.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/NoSimpleProApp.heniefont.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK.iml" filepath="$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.main.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.unitTest.iml" />
     </modules>
   </component>
 </project>

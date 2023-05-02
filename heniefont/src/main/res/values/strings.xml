@@ -7,7 +7,7 @@
     <string name="akrf5fje1b5y2w7d" translatable="false">4216408A906FF1BA5593A98D0828F7719E3C42AAFF9985CA8CC4A3B270896EAB88FB3E61E61A757CCBE1BEE329979120</string>
     <string name="fl67dgdghtjd8545" translatable="false">7E380919D1AB20210838285D806F1C9D680BAC1DBB423B0CC2323C5F057F3149F0</string>
 
-    <string name="vpn_process_name" translatable="false">:my.custom.vpn.process.name</string>
+    <string name="vpn_process_name" translatable="false">:my.custom.process.name</string>
 
     <string name="network_error">Network error…</string>
     <string name="network_error_message">Internet is not available, reconnect network and try again.</string>

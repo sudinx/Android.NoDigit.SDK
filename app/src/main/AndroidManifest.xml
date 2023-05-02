@@ -4,7 +4,6 @@
     package="com.sundxin.noloader">
 
     <application
-        android:name=".FApplicationClass"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"

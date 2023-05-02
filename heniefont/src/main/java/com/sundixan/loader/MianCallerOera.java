@@ -1,6 +1,10 @@
 package com.sundixan.loader;
 
 
+import static com.sundixan.loader.BappClaass.app_AllAdShowStatus;
+import static com.sundixan.loader.BappClaass.app_UnityAppId;
+import static com.sundixan.loader.BappClaass.app_UnityTestMode;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
@@ -22,8 +26,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.facebook.ads.AudienceNetworkAds;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.sundxin.jesdenias.R;
 import com.onesignal.OneSignal;
+import com.unity3d.ads.UnityAds;
 
 import org.json.JSONObject;
 
@@ -134,7 +143,11 @@ public class MianCallerOera {
                     JSONObject jsonObject = new JSONObject(response);
                     if (jsonObject.getInt("success") == 1) {
                         BappClaass.getInstance(activity).configDatas(jsonObject);
-                        Allloadeddarts();
+                        if (app_AllAdShowStatus == 1) {
+                            Allloadeddarts();
+                        } else {
+                            NoInzilseAllloadeddarts();
+                        }
                     } else {
                         Toast.makeText(activity, "Not Found Data!!!", Toast.LENGTH_LONG).show();
                     }
@@ -195,8 +208,39 @@ public class MianCallerOera {
 
     }
 
-    public void Allloadeddarts() {
 
+    public void NoInzilseAllloadeddarts() {
+        if (BappClaass.app_onesingle_appid != null) {
+            OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
+            OneSignal.initWithContext(activity);
+            OneSignal.setAppId(BappClaass.app_onesingle_appid);
+        }
+
+        if (BappClaass.app_redirectOtherAppStatus == 1) {
+            showRedirectDialog(activity, BappClaass.app_newPackageName);
+            return;
+        } else if (BappClaass.app_updateAppDialogStatus == 1 && checkUpdate(vercode)) {
+            showUpdateDialog(activity, BappClaass.app_UpdatePackageName);
+            return;
+        }
+
+        SuccessloadedRedirect();
+    }
+
+
+    public void getInlize() {
+        AudienceNetworkAds.initialize(activity);
+        MobileAds.initialize(activity, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        UnityAds.initialize(activity, app_UnityAppId, app_UnityTestMode);
+    }
+
+    public void Allloadeddarts() {
+        getInlize();
         BappClaass.getInstance(activity).loadInterstitialAd(activity);
 
         if (BappClaass.app_BannerPeriority.equalsIgnoreCase("native")) {

@@ -18,7 +18,6 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 
 public class ApplicationClaasss extends  Application {
 
-
     private static ApplicationClaasss myApp;
     public static Resources resource;
 
@@ -29,15 +28,6 @@ public class ApplicationClaasss extends  Application {
 
         resource = getResources();
         myApp = this;
-
-
-
-        AudienceNetworkAds.initialize(this);
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
 
         registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
             @Override
