@@ -3250,48 +3250,49 @@ public class BappClaass {
             Custcadscnt_click++;
             if (app_CustClickCntSAd != 0) {
                 if (Custcadscnt_click % app_CustClickCntSAd != 0) {
-                    if (app_CustomeADText.equalsIgnoreCase("Qureka")) {
-                        displayQurekaInterstitialAd(activity, app_CustomeAdQurekaLink);
-                    } else if (app_CustomeADText.equalsIgnoreCase("Custome")) {
-                        Rect displayRectangle = new Rect();
-                        Window window = activity.getWindow();
-                        window.getDecorView().getWindowVisibleDisplayFrame(displayRectangle);
-                        final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-                        ViewGroup viewGroup = activity.findViewById(android.R.id.content);
-                        View dialogView = LayoutInflater.from(activity).inflate(R.layout.custom_ad_interstitial_layout, viewGroup, false);
-                        dialogView.setMinimumWidth((int) (displayRectangle.width() * 1f));
-                        dialogView.setMinimumHeight((int) (displayRectangle.height() * 1f));
-                        builder.setView(dialogView);
-                        final AlertDialog alertDialog = builder.create();
-                        LinearLayout intest_layout = dialogView.findViewById(R.id.intest_layout);
-                        intest_layout.setVisibility(View.VISIBLE);
-                        ImageView iv_intersFullImage = dialogView.findViewById(R.id.iv_intersFullImage);
-                        ImageView iv_intersFullImageCancel = dialogView.findViewById(R.id.iv_intersFullImageCancel);
-
-                        Glide.with(activity).load(app_CustomeAdInterFullscreenImg).into(iv_intersFullImage);
-
-                        iv_intersFullImage.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                alertDialog.dismiss();
-                                try {
-                                    activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(app_CustomeAdInterstitialLink)));
-                                } catch (ActivityNotFoundException e) {
-                                    activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(app_CustomeAdInterstitialLink)));
-                                }
-                            }
-                        });
-
-                        iv_intersFullImageCancel.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                alertDialog.dismiss();
-                            }
-                        });
-                        alertDialog.show();
-                    }
                     return;
                 }
+            }
+
+            if (app_CustomeADText.equalsIgnoreCase("Qureka")) {
+                displayQurekaInterstitialAd(activity, app_CustomeAdQurekaLink);
+            } else if (app_CustomeADText.equalsIgnoreCase("Custome")) {
+                Rect displayRectangle = new Rect();
+                Window window = activity.getWindow();
+                window.getDecorView().getWindowVisibleDisplayFrame(displayRectangle);
+                final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+                ViewGroup viewGroup = activity.findViewById(android.R.id.content);
+                View dialogView = LayoutInflater.from(activity).inflate(R.layout.custom_ad_interstitial_layout, viewGroup, false);
+                dialogView.setMinimumWidth((int) (displayRectangle.width() * 1f));
+                dialogView.setMinimumHeight((int) (displayRectangle.height() * 1f));
+                builder.setView(dialogView);
+                final AlertDialog alertDialog = builder.create();
+                LinearLayout intest_layout = dialogView.findViewById(R.id.intest_layout);
+                intest_layout.setVisibility(View.VISIBLE);
+                ImageView iv_intersFullImage = dialogView.findViewById(R.id.iv_intersFullImage);
+                ImageView iv_intersFullImageCancel = dialogView.findViewById(R.id.iv_intersFullImageCancel);
+
+                Glide.with(activity).load(app_CustomeAdInterFullscreenImg).into(iv_intersFullImage);
+
+                iv_intersFullImage.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        alertDialog.dismiss();
+                        try {
+                            activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(app_CustomeAdInterstitialLink)));
+                        } catch (ActivityNotFoundException e) {
+                            activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(app_CustomeAdInterstitialLink)));
+                        }
+                    }
+                });
+
+                iv_intersFullImageCancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        alertDialog.dismiss();
+                    }
+                });
+                alertDialog.show();
             }
 
 
