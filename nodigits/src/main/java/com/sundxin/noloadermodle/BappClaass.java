@@ -426,6 +426,7 @@ public class BappClaass {
         if (app_AllAdShowStatus == 0) {
             return;
         }
+
         if (AD_MOB_STATUS.equalsIgnoreCase("true") && FACEBOOK_AD_STATUS.equalsIgnoreCase("true")) {
             if (app_Banner_AdsPriority.equalsIgnoreCase("google")) {
                 showAdmobBanner();
