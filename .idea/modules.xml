@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK.iml" filepath="$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.main.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/heniefont/Android.NoDigit.SDK.heniefont.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK_3_2_2.iml" filepath="$PROJECT_DIR$/.idea/modules/Android.NoDigit.SDK_3_2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.NoDigit.SDK_3_2_2.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.iml" filepath="$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/nodigits/Android.NoDigit.SDK_3_2_2.nodigits.unitTest.iml" />
     </modules>
   </component>
 </project>
