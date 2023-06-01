@@ -9,8 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FinalProject"
-        tools:replace="android:icon,android:roundIcon,android:theme"
+        android:theme="@style/SimTheme"
         tools:targetApi="32">
 
         <activity
